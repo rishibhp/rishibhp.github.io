@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Bucket List of Questions</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
+	
+	<!--/ /-------- My Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      </script>
+      <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+</head>
+
+<body style="background-color: #fcfadc">
+
+    <ul class="header">
+		<li><a href="index.html">About Me</a></li>
+		<li><a href="academics.html">Academics</a></li>
+		<li><a href="notes.html">Notes/Past works</a></li>
+		<li><a href="other.html">Other Interests</a></li>
+	</ul>
+
+    <h1>Bucket List of Questions</h1>
+
+    <div style="margin-left:5%; margin-right:5%; margin-bottom:1%">
+        This is a list of questions that I have either no answer to or no satisfactory answer to. Every so often I will try to work on a couple of them. I refuse to look them up (in some cases that's not even possible because the problem is with my own understanding of the material) but if you have a hint please let me know. 
+
+        <ol>
+            <li>Is every group the fundamental group of a topological space?</li>
+            <ul>
+                <li>A completely delightful question posed to me by two different people. Of all the questions here, this is the one that eats at me the most.</li>
+            </ul>
+            <li>Is there a simple description for subsets $A$ of $\mathbb{R}^n$ where $\text{Bd}(\text{Bd}(A)) = \text{Bd}(A)$?</li>
+            <ul>
+                <li>Somehow feels like these should be 'nice' subsets since counterexamples seem to be subsets with lots of holes in them (e.g. $\mathbb{Q}$).</li>
+            </ul>
+            <li>Why is there no natural isomorphism from a finite dimensional vector space to its dual?</li>
+            <ul>
+                <li>I know that the answer lies somewhere in category theory. I don't know enough to know how.  </li>
+            </ul>
+            <li>What does it mean to say that the $K_0$ group of a field is the integers? How exactly does it relate to dimensions of a vector space? </li>
+            <ul>
+                <li>One of those cases where I can do the computation but I don't know what it means. This frustrates me.</li>
+            </ul>
+            <li>Up to homeomorphism, there is a unique topological space that is non-empty, totally disconnected, perfect, compact and metrizable (the Cantor set). How far can we weaken the conditions so that uniqueness no longer holds? </li>
+            <li>Does there exist a group $G$ such that $\text{Aut}(G)$ is trivial?</li>
+        </ol>
+        <hr>
+        <h2>Answered</h2>
+        <ol>
+            <li>
+                Suppose $G, H$ are groups such that $G \times H \cong G$. Does this imply that $H$ is trivial?
+            </li>
+            <ul>
+                <li> No. Suppose $G$ is a group. Then we can define $G_\infty := \prod_{i = 1}^\infty G = \{f: \mathbb{N} \to G\}$. We can make this a group by defining the operation pointwise. We then observe that $G_\infty \times G = G_\infty$. </li>
+            </ul>
+        </ol>
+    </div>
+
+
+</body>

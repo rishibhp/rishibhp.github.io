@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Other Interests</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
+	
+	<!--/ /-------- My Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #fcfadc">
+	<!--I see you snooping around. Unfortunately nothing too exciting around. All I'll say is if you want the answers to the crosswords, replace the .pdf in the url with _answers.png-->
+	<ul class="header">
+		<li><a href="index.html">About Me</a></li>
+		<li><a href="academics.html">Academics</a></li>
+		<li><a href="notes.html">Notes/Past works</a></li>
+		<li><a href="#" onclick="return false;">Other Interests</a></li>
+	</ul>
+
+	<h1>Other Interests</h1>
+
+	<ul class="interests">
+		<li id="crosswords_button"><a href="#">Crosswords</a></li>
+		<li id="desmos_button"><a href="#">Visualisations</a></li>
+		<li id="reading_button"><a href="#">Reading</a></li>
+        <li id="wikipedia_button"><a href="#">Wikipedia</a></li>
+		<li id="writing_button"><a href="#">Writing</a></li>
+        <li id="photo_button"><a href="#">Photography</a></li>
+	</ul>
+
+    <div class="description">
+        <div class="hidden" id="crosswords_desc">
+            <p>
+                For some inexplicable reason, I really got into creating crosswords in the summer of 2021. I was inspired by the Guardian crosswords and many of the grids themselves were taken from there. The first few were made using Pierce Gleeson's excellent <a href="http://crossword.piercegleeson.com/">Crossword Creation Tool</a> and the later ones were made using LaTeX and the crossword package. Clues marked with * are <a href="https://en.wikipedia.org/wiki/Cryptic_crossword#How_cryptic_clues_work">cryptic clues</a> (I promise mine are simpler!). I hope you like them!
+
+				<ul class="crosswords_list">
+					<li><a href="crosswords/crossword1.pdf">crossword1</a></li>
+					<li><a href="crosswords/crossword2.pdf">crossword2</a> (21D should be NICKLEBY but is NICKELBY instead, apologies for the typo)</li>
+					<li><a href="crosswords/crossword3.pdf">crossword3</a></li>
+					<li><a href="crosswords/crossword4.pdf">crossword4</a></li>
+					<li><a href="crosswords/crossword5.pdf">crossword5</a></li>
+					<li><a href="crosswords/crossword6.pdf">crossword6</a></li>
+					<li><a href="crosswords/crossword7.pdf">crossword7</a> (13A is TODAY, that's what I get for time-sensitive clues I guess)</li>
+					<li><a href="crosswords/crossword8.pdf">crossword8</a></li>
+					<li><a href="crosswords/crossword9.pdf">crossword9</a></li>
+					<li><a href="crosswords/crossword10.pdf">crossword10</a></li>
+					<li><a href="crosswords/crossword11.pdf">crossword11</a></li>
+					<li><a href="crosswords/crossword12.pdf">crossword12</a></li>
+					<li><a href="crosswords/crossword13.pdf">crossword13</a></li>
+					<li><a href="crosswords/crossword14.pdf">crossword14</a></li>
+					<li><a href="crosswords/crossword15.pdf">crossword15</a></li>
+					<li><a href="crosswords/crossword16.pdf">crossword16</a></li>
+					<li><a href="crosswords/crossword17.pdf">crossword17</a></li>
+					<li><a href="crosswords/crossword18.pdf">crossword18</a></li>
+					<li><a href="crosswords/crossword19.pdf">crossword19</a></li>
+					<li><a href="crosswords/crossword20.pdf">crossword20</a></li>
+				</ul>
+            </p>
+        </div>
+
+        <div class="hidden" id="visualisations_desc">
+            <p>
+                While most people tend to simply use the graphing calculator <a href="https://www.desmos.com/calculator">Desmos</a> as a graphing calculator, (and don't get me wrong, I do too) what I particularly enjoy is making some tools and demonstrations with it. Recently, I have also started using <a href="https://www.math3d.org/">math3d.org</a> to create 3D visualisations. Below are some of my favourites.
+            </p>
+			<h2>Desmos</h2>
+			<ul class="desmos_projects">
+                <li><b><a href="https://www.desmos.com/calculator/zqoanfrjxr">Homeomorphism of the disk fixing boundary:</a></b> I recently needed to find homeomorphisms of the disk that send a given point to some other given point but also fixes the boundary (without this condition the biholomorphisms below work). This is one possible family of such homeomorphisms.</li>
+                <li><b><a href="https://www.desmos.com/calculator/uafhx9izxp">Automorphisms of the disk:</a></b> Visualisation of automorphisms/biholomorphisms of the unit disk (technically you can also have rotations but I didn't add those)</li>
+				<li><b><a href="https://www.desmos.com/calculator/rrhwqi1w00">Time Evolution on the plane:</a></b> Given a linear system of first order equation you can write a general solution to the system as a linear combination of particular solutions. This graph allows you visualise the general solutions.</li>
+				<li><b><a href="https://www.desmos.com/calculator/es5nuxwxfg">Simulate a Diff Eqn:</a></b> Although you can't always solve a differential equation (in fact you almost always can't), you can try and simulate it numerically by using discrete time steps. This is what I try to do above. Unfortunately it is quite prone to floating point errors, so perhaps its a better demonstration of chaos :)</li>
+				<li><b><a href="https://www.desmos.com/calculator/g9tkxjjdbt">Slope Field Plotter:</a></b> A useful tool when trying to visualise differential equations</li>
+				<li><b><a href="https://www.desmos.com/calculator/ymdc6fagaw">Complex Grapher:</a></b> A tool to visualise complex functions (or any functions from R² to R²).</li>
+				<li><b><a href="https://www.desmos.com/calculator/6ewbvjxfas">(Pseudo-)Hilbert Curve:</a></b> Drawing Pseudo-Hilbert curves to help with visualisation. Big thanks to u/royalebot9000 from Reddit for their help</li>
+				<li><b><a href="https://www.desmos.com/calculator/xtpm06wybm">3D Grapher:</a></b> A tool to plot functions (and other objects) in R³.</li>
+				<li><b><a href="https://www.desmos.com/calculator/583nrljflw">Rotating Hypercube:</a></b> Rendering a (rotating) hypercube in R³.</li>
+				<li><b><a href="https://www.desmos.com/calculator/ymaizzowpl">Rotating Cube:</a></b> Rendering a cube in R³.</li>
+				<li><b><a href="https://www.desmos.com/calculator/ilq8gmuigd">Rotating Sphere:</a></b> Rendering a sphere in R³. This one also has something of a tutorial for anyone who wants to try their own hand at graphing things in 3D in Desmos. Generalising to objects in R⁴ is actually a fairly simple extension. Hope it helps!</li>
+			</ul>
+			<hr />
+			<h2>math3d</h2>
+			<ul class="desmos_projects">
+                <li><b><a href="https://www.math3d.org/tJPITHbnG">Push map on a cylinder:</a></b> Given a surface and a (ideally non-trivial) loop on it, we can consider the push map along this loop by applying the push map to an annular neighbourhood of the surface.</li>
+                <li><b><a href="https://www.math3d.org/6SsE5l8Pe">Automorphisms of the disk:</a></b> Very similar to the Desmos graph above. This one is slightly faster but is a bit wonky if the point <math>a</math> is moved close to the boundary.</li>
+				<li><b><a href="https://www.math3d.org/KeyK9XPEw">Covering spaces:</a></b> This was one of my first (proper) creations in math3d and was used to visualise covering spaces. I found it extremely useful in intuiting what the theorems related to covering spaces are saying and why they are true.</li>
+				<li><b><a href="https://www.math3d.org/XmEf6s7n9">Abelian loops of a torus:</a></b> I couldn't completely convince myself that the fundamental group of a torus was abelian (and if you haven't seen it before, I recommend trying to show this to yourself. If you want a hint for this problem, see the very last item in this list). So I created this so that I could see the homotopy visually. (Also apologies, the "code" here is particularly messy, hopefully at some point I will be able fix it.)</li>
+				<li><b><a href="https://www.math3d.org/RDYoJDfoa">Stereographic projection of S<sup>2</sup>:</a></b> There seem to be far too few animations and visualisations of stereographic projection. Hopefully this might help someone trying to play around with it. </li>
+				<li><b><a href="https://www.math3d.org/wcIQT2LQG">Clifford Torus:</a></b> It will likely surprise no one by now that I wanted to try creating something in 4-dimensions and then graphing that to get cool animations. This one is also far easier/neater than you might expect so if you want to try your own hand at visualising things using math3d, I would recommend looking at this one.</li>
+				<li><b><a href="https://www.math3d.org/48qKOZOFQ">Torus Covering Map:</a></b>  Anybody who has looked into algebraic topology knows that the plane is a covering space of the torus and that there is a standard covering map. This graph allows you to draw curves on the plane and see what the "projections" of these curves look like on the torus.</li>
+			</ul>
+			<hr />
+			<h2>Honorable Mentions</h2>
+			<ul class="desmos_projects">
+				<li><b><a href="https://www.desmos.com/calculator/4ikwtsvxn3">Linear Transformations</a>:</b> A particular, simplified instance of Complex Grapher for specifically visualising linear maps. Inspired by 3Blue1Brown</li>
+				<li><b><a href="https://www.desmos.com/calculator/ajqyc1wxn9">Cool Failure</a>:</b> They say you never learn quite as much as you do from your failures. Luckily with Desmos, even when things don't go as planned, they can be remarkably pretty. This one was made when I was first trying to make a rotating sphere.</li>
+			</ul>
+        </div>
+
+        <div class="hidden" id="reading_desc">
+			<ul class="reading_blurb">
+				<li> <b>Currently Reading:</b> <i>Blood of Elves</i> by Andrzej Sapkowski
+				<li> <b>Next on the list (probably):</b> <i>Bleak House</i> by Charles Dickens </li>
+				<li> <b>Top Recommendations of All Time (in no particular order)<a href="#rec_footnote" style="text-decoration:none;">*</a>:</b> <i>The Dictionary of Obscure Sorrows by John Koenig; The Anthropocene Reviewed by John Green; The Perks of Being a Wallflower by Stephen Chbosky; Six of Crows by Leigh Bardugo; To Kill a Mockingbird by Harper Lee; The Phantom Tollbooth by Norton Juster</i> </li>
+			</ul>
+            <p style="margin-bottom: 5%;">
+                I enjoy reading and am almost always reading something. I tend to enjoy fiction, particularly fantasy, but recently I have begun venturing into non-fiction as well. History especially is something I find myself being drawn towards, but really, I'm fine with anything. So if you have any recommendations at all, send them my way!
+            </p>
+			<p id="rec_footnote" style="font-size: small;"> 
+				*The above recommendations are there not necessarily because they are my favourites. I find my favourites often changing, sometimes with time but most often with mood. I just found that the above titles resonated with me in ways that are hard to describe so even if you don't enjoy reading them as much as I did, I hope you will gain something from them. <i>The Phantom Tollbooth</i> in particular is for those days when everything is too serious and you need something a little silly and <i>The Dictionary of Obscure Sorrows</i> is for those days of reflection we occassionally find ourselves in.
+			</p>
+        </div>
+
+        <div class="hidden" id="wikipedia_desc">
+            <p>
+                I am a big, big fan of <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a> (and the <a href="https://wikimediafoundation.org/our-work/wikimedia-projects/#a1-reference">Wikimedia projects</a> in general). Despite its (many) faults, I think it is one of the greatest achievements of the internet. It brings me immense joy that the project is free, open source and run almost entirely through volunteers. Therefore I try to chip in whenever I can and would like to encourage you to do the same. Some projects that I think are particularly nice for newcomers are 
+            </p>
+            <ul>
+                <li><a href="https://citationhunt.toolforge.org/en?id=133975aa">Citation Hunt</a>, which involves finding reliable sources for Wikipedia articles</li>
+                <li><a href="https://en.wikisource.org/wiki/Main_Page">Wikisource</a>, which involves scanning/transcribing texts to make them easily accessible</li>
+                <li><a href="https://en.wikibooks.org/wiki/Main_Page">Wikibooks</a>, which involves creating freely available manuals/guides/textbooks/etc.</li>
+            </ul>
+            <p>If you are bilingual, I would encourage you to translate works wherever possible. I am happy to answer questions you may have about getting started on anything above. If you can, please help share some knowledge with the world :)</p>
+        </div>
+
+        <div class="hidden" id="writing_desc">
+            <p>
+                As with most readers I imagine, I enjoy doing some writing as well and this has become a place for me to store/share my pieces. Luckily for me, <i>The Innis Herald</i> has also been kind enough to take some and publish them. 
+            </p>
+			<ul id="writing_list">
+				<li> <a href="writing/guide.html">Guide to Exploring Abandoned Houses</a> — <a href="http://theinnisherald.com/a-guide-to-exploring-abandoned-houses"><i>Herald</i> Edition</a> </li>
+				<li> <a href="http://theinnisherald.com/podcast-recommendations-2">Podcast Recommendations</a> </li>
+				<li> <a href="writing/clockworker.html">The Clockworker</a> — <a href="http://theinnisherald.com/the-clockworker"><i>Herald</i> edition</a></li>
+				<li> <a href="writing/dictionaryofobscuresorrows.html">(My) Dictionary of Obscure Sorrows</a> — <a href="http://theinnisherald.com/my-dictionary-of-obscure-sorrows"><i>Herald</i> edition</a></li>
+				<li> <a href="writing/tale.html">The Tale That Wasn't</a> </li>
+				<li><a href="writing/christmas_story.html">A Christmas Like One Other</a></li>
+                <li><a href="writing/airport_review.html">A Review of Airports</a> — <a href="https://theinnisherald.com/a-review-of-airports"><i>Herald</i> edition</a></li>
+			</ul>
+        </div>
+        <div class="hidden" id="photography_desc">
+            <p>
+                In fall of 2024, I came across a film camera for just $20. Photography had always been something I wanted to get into and figured I would never get a better chance than this. So on something of an impulse, I decided to purchase the camera and have actually been enjoying it a lot over the past few months. Here are some of my favourite shots. 
+            </p>
+            <div class="row">
+                <div class="column">
+                    <img src="photos/000000830003.jpg"/>
+                    <img src="photos/000000830005.jpg"/>
+                </div>
+                
+                <div class="column">
+                    <img src="photos/000000830007.jpg"/>
+                    <img src="photos/000021620019.jpg"/>
+                </div>
+              </div>
+        </div>
+    </div>
+    
+	<script>
+		var interests = document.querySelectorAll(".interests li a");
+
+		for (var i = 0; i < interests.length; i++) {
+			interests[i].addEventListener('click', displayInfo);
+		}
+
+		function displayInfo(event) {
+			// Stop from going to #
+			event.preventDefault();
+
+			// Hide the element that is currently active (if any)
+			var activeElement = document.querySelector(".active");
+			if (activeElement) {
+				activeElement.setAttribute('class', 'hidden');
+			}
+
+			// Find the id of the element that was clicked and then set its attribute to active
+			var clickedElementID = event.target.innerHTML.toLowerCase() + "_desc";
+			var elm = document.getElementById(clickedElementID);
+			elm.setAttribute('class', 'active');
+		}
+
+	</script>
+
+</body>
+</html>
