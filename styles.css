@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 h1, h2, p {
 	margin: 0;
 	padding: 0;
@@ -5,8 +7,12 @@ h1, h2, p {
 
 body {
 	color:#333;
-	font-family: 'PT Sans', sans-serif;
 	padding:50px 0;
+	/* background-color: #eeeeee; */
+}
+
+div {
+	background-color: #FFFFFF;
 }
 
 a {
@@ -17,8 +23,8 @@ a:visited {
 	color: #333;
 }
 
-h1, h2, h3, h4 {
-	font-family: 'Oswald', sans-serif;
+h1, h2, h3, h4, body, p {
+	font-family: 'Urbanist', sans-serif;
 }
 
 h1 {
@@ -40,7 +46,7 @@ p {
 	margin: auto;
 	padding: 20px;
 	position: relative;
-	background: #AAD8B0;
+	background-color: #FFFFFF;
 }
 
 
@@ -133,7 +139,6 @@ p {
 	margin: auto;
 	padding: 20px;
 	position:relative;
-	background: #fcfadc;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: large;
 }
@@ -141,6 +146,7 @@ p {
 .writing p{
 	text-indent: 2.5%;
 	padding-bottom: 0.5%;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .writing .word {
@@ -167,7 +173,6 @@ p {
 	margin: auto;
 	padding: 20px;
 	position: relative;
-	background: #fcfadc;
 }
 
 .row {
